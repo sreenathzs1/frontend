@@ -18,7 +18,7 @@ pipeline {
         stage('preapare Artifact') {
             steps {
                 sh '''
-                 zip -r ../frontend.zip *
+                 zip -r ../frontend1.zip *
                  '''
             }
         }
@@ -26,7 +26,7 @@ pipeline {
         stage('Upload Artifacts') {
             steps {
                 sh '''
-                  curl -f -v -u admin:admin123 --upload-file /home/ubuntu/workspace/CI-Pipelines/frontend.zip http://172.31.11.166:8081/repository/frontend/frontend.zip
+                  curl -f -v -u admin:admin123 --upload-file /home/ubuntu/workspace/CI-Pipelines/frontend1.zip http://172.31.11.166:8081/repository/frontend/frontend.zip
                   '''
            }
 
