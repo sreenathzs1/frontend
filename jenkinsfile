@@ -1,3 +1,5 @@
 @Library('todo') _
 
-todo()
+todo(
+    COMPONENT           : 'frontend'
+)
