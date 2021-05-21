@@ -31,16 +31,19 @@ Now move to the frontend.conf file
 Change the Path
 
 root /var/www/html ;  with  root /var/www/html/frontend/dist ;
+
 Export Login and Todo's Private ip's in root (Configuration)
 
     # export AUTH_IP_ADDRESS=http://<login Private ip>:8080
     # export TODOS_IP_ADDRESS=http://<ToDos Private ip>:8080
+    
 Restart and enabling the service
 
     # systemctl restart nginx
     # systemctl start nginx
     # systemctl enable nginx
     # systemctl status nginx
+
 Start the service
 
     # cd /var/www/html/frontend/
