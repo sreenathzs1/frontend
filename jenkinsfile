@@ -1,7 +1,7 @@
 @Library('todo') _
 
 todo(
-    COMPONENT           : 'frontend',
+    COMPONENT           : 'frontend2',
     PROJECT_NAME        : "TODO",
     SLAVE_LABEL         : "JAVA",
     SKIP_NEXUS_UPLOAD   : false
