@@ -49,4 +49,3 @@ Start the service
     # cd /var/www/html/frontend/
     # npm start 
 
-    #sreenath zelar
