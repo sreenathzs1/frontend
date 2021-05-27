@@ -20,14 +20,15 @@ Clone the Git repo
 Naviagte to frontend we use below command
 
     # cd frontend
+
 Now build the code Building and running 
     1.install dependencies # npm install
-
     2.build for production # npm run build
 
 Now move to the frontend.conf file
 
     # mv frontend.conf /etc/nginx/sites-enable/default
+
 Change the Path
 
 root /var/www/html ;  with  root /var/www/html/frontend/dist ;
@@ -49,3 +50,4 @@ Start the service
     # cd /var/www/html/frontend/
     # npm start 
 
+    #Tags checking for main branch or Tags
