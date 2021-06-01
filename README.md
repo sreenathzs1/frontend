@@ -23,10 +23,11 @@ Naviagte to frontend we use below command
     # cd frontend
 
 Now build the code Building and running 
-    1.install dependencies 
-        # npm install
-    2.build for production 
-        # npm run build
+
+1.install dependencies 
+    # npm install
+2.build for production 
+    # npm run build
 
 Now move to the frontend.conf file
 
