@@ -5,6 +5,7 @@ First we need to Update the Packages by using below commands
     # apt install nginx
     # apt install nodejs
     # apt install npm
+
 Checking successfully install are not
 
     # nodejs -v
@@ -22,8 +23,10 @@ Naviagte to frontend we use below command
     # cd frontend
 
 Now build the code Building and running 
-    1.install dependencies # npm install
-    2.build for production # npm run build
+    1.install dependencies 
+        # npm install
+    2.build for production 
+        # npm run build
 
 Now move to the frontend.conf file
 
