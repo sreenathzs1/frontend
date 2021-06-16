@@ -22,13 +22,13 @@ Naviagte to frontend we use below command
 
     # cd frontend
 
-Now build the code Building and running 
+Now build the code Building and running
 
-1.install dependencies 
+1.install dependencies
 
     # npm install
-    
-2.build for production 
+
+2.build for production
 
     # npm run build
 
@@ -44,7 +44,7 @@ Export Login and Todo's Private ip's in root (Configuration)
 
     # export AUTH_IP_ADDRESS=http://<login Private ip>:8080
     # export TODOS_IP_ADDRESS=http://<ToDos Private ip>:8080
-    
+
 Restart and enabling the service
 
     # systemctl restart nginx
@@ -55,14 +55,13 @@ Restart and enabling the service
 Start the service
 
     # cd /var/www/html/frontend/
-    # npm start 
+    # npm start
 
     //Tags checking for main branch or Tags
     //second
     //Third
     //fourth
     //tags checking
-    //tags update 10 
+    //tags update 10
     //tags 11 08-06-2021
-    //12 tags 10-06-2021 13 tags 15tag 10-06-2021 zzzdeftffgfhtfh
-    
+    //12 tags 10-06-2021 13 tags 15tag 10-06-2021 zzzdeftffgfhtfh hsss
