@@ -65,8 +65,6 @@ Start the service
     //tags update 10
     //tags 11 08-06-2021
     //12 tags 10-06-2021 13 tags 15tag 10-06-2021
-<<<<<<< HEAD
-    // again vscode update pushing problem now checking to setup application!
-=======
+    //again vscode update pushing problem now checking to setup application!
     // again vscode update pushing problem now checking to setup application.
->>>>>>> 15c21356064a0dee977229278e4b3df987d6ba9d
+
