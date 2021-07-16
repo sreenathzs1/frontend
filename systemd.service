@@ -4,7 +4,7 @@ Description=frontend service
 [Service]
 Type=simple
 User=root
-WorkingDirectory=/var/www/html/frontend
+WorkingDirectory=/var/www/html/todo/frontend
 ExecStart=/usr/bin/npm start --no-warnings
 Restart=on-failure
 SyslogIdentifier=frontend
