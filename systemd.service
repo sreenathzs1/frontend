@@ -1,0 +1,17 @@
+[Unit]
+Description=frontend service
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/var/www/html/frontend
+ExecStart=/usr/bin/npm start --no-warnings
+Restart=always
+SyslogIdentifier=frontend
+ProtectSystem=full
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+
+[Install]
+WantedBy=multi-user.target
