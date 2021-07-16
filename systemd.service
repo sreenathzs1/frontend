@@ -8,10 +8,6 @@ WorkingDirectory=/var/www/html/todo/frontend
 ExecStart=/usr/bin/npm start --no-warnings
 Restart=on-failure
 SyslogIdentifier=frontend
-ProtectSystem=full
-ProtectHome=yes
-PrivateTmp=yes
-PrivateDevices=yes
 
 [Install]
 WantedBy=multi-user.target
