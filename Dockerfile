@@ -1,7 +1,8 @@
-FROM  node
-RUN   mkdir /todo
-WORKDIR /todo
-COPY    /build/dev-server.js .
-COPY    package.json .
-RUN     npm install
-CMD     [ "bin", "npm start" ]
+FROM      node
+RUN      mkdir /todo
+WORKDIR  /todo
+COPY     src/* static/* cofig/* build/* ./
+COPY     package.json .
+RUN      npm install
+RUN      npm run build
+CMD      [ "bin", "npm start" ]
