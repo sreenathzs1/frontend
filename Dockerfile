@@ -1,5 +1,5 @@
-FROM     node
-RUN      mkdir /app
+FROM     iojs
+RUN      mkdir -p /app
 WORKDIR  /app
 COPY     src/* static/* cofig/* build/* ./
 COPY     package.json .
