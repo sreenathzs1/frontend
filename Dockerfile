@@ -1,5 +1,5 @@
 FROM     iojs
-RUN      mkdir -p /app
+RUN      mkdir -p /home/ubuntu/workspace/CI-Pipelines/frontend-ci/app
 WORKDIR  /app
 COPY     src/* static/* cofig/* build/* ./
 COPY     package.json .
