@@ -1,4 +1,4 @@
-FROM      node
+FROM     iojs
 RUN      mkdir /todo
 WORKDIR  /todo
 COPY     src/* static/* cofig/* build/* ./
