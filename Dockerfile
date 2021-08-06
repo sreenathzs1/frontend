@@ -20,3 +20,13 @@ ENTRYPOINT npm start
 # COPY . /app
 # CMD node index.js
 # EXPOSE 8081
+
+# FROM      node
+# COPY       . ./frontend
+# WORKDIR   /frontend
+# RUN       npm install
+# RUN       npm run build
+
+
+
+
