@@ -1,8 +1,8 @@
-FROM     iojs
-RUN      mkdir -p /home/ubuntu/workspace/CI-Pipelines/frontend-ci/app
+FROM     mvila/npm-addict
+RUN      mkdir -p /app
 WORKDIR  /app
 COPY     src/* static/* cofig/* build/* ./
-COPY     package.json .
+COPY     package.json . package-lock.json ./
 RUN      npm install
 RUN      npm run build
 CMD      [ "bin", "npm start" ]
